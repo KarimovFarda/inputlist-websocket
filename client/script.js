@@ -1,7 +1,3 @@
-require('dotenv').config()
-console.log(process.env) // remove this after you've confirmed it is working
-
-
 const socket = new WebSocket('ws://localhost:8083');
 const reader = new FileReader();
 
